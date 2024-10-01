@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+opencv-python
+dlib
+face_recognition
+rembg
+Pillow
+torch
+torchvision
