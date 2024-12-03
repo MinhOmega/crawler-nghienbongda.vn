@@ -1,0 +1,473 @@
+2024-12-03 21:11:28,764 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:11:28,774 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 678
+2024-12-03 21:11:28,774 - INFO - Ollama server is accessible.
+2024-12-03 21:11:28,775 - INFO - Backup created: products.json.backup.20241203211128
+2024-12-03 21:11:28,782 - INFO - Loaded 275 products from products.json
+2024-12-03 21:11:28,782 - INFO - Found 22 products with default descriptions to update.
+2024-12-03 21:11:28,782 - INFO - Updating descriptions for product: Real Madrid away 23-24 bản player full bộ
+2024-12-03 21:11:28,782 - INFO - Processing product: Real Madrid away 23-24 bản player full bộ
+2024-12-03 21:11:28,782 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Real Madrid away 23-24 bản player full bộ
+2024-12-03 21:11:28,783 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:11:48,423 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:11:48,425 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:11:48,426 - DEBUG - Raw Ollama Response: { 
+  "description": "<p><strong>Real Madrid Away 23-24 Bản Player Full Bộ</strong></p><p>&nbsp;</p><p>Các sản phẩm của chúng tôi được thiết kế để mang lại cho bạn cảm giác như bạn đang đứng trên sân vận động cùng với những cầu thủ hàng đầu. Với bộ trang phục Real Madrid Away 23-24 Bản Player, bạn sẽ cảm thấy tự tin và nổi bật trong bất kỳ hoạt động thể thao nào.</p><p>&nbsp;</p><p><strong>Tính Nổi Bật:</strong></p><ul><li>Chất liệu cao cấp và mềm mại, mang lại cảm giác thoải mái cho người mặc.</li><li>Thiết kế hiện đại và thời thượng, phù hợp với những cầu thủ nổi tiếng nhất.</li><li>Được thiết kế để đáp ứng nhu cầu của những người yêu thích Real Madrid và thể thao.</li></ul><p>&nbsp;</p><p><strong>Lợi Ích:</strong></p><ul><li>Cảm thấy tự tin và nổi bật khi mặc bộ trang phục này.</li><li>Phù hợp cho các hoạt động thể thao như bóng đá, tập luyện hoặc thậm chí chỉ đơn giản là đi dạo với bạn bè.</li><li>Tiết kiệm thời gian và công sức nhờ thiết kế nhanh chóng và dễ dàng vào quần áo.</li></ul><p>&nbsp;</p><p><strong>Chất Liệu:</strong></p><p>Chất liệu cao cấp và mềm mại, mang lại cảm giác thoải mái cho người mặc.</p><p>&nbsp;</p><p><strong>Thiết Kế:</strong></p><p>Thiết kế hiện đại và thời thượng, phù hợp với những cầu thủ nổi tiếng nhất.</p><p>&nbsp;</p><p><strong>Sự Phù Hợp:</strong></p><p>Được thiết kế để đáp ứng nhu cầu của những người yêu thích Real Madrid và thể thao.</p>", 
+  "short_description": "Mang lại cảm giác tự tin và nổi bật với bộ trang phục Real Madrid Away 23-24 Bản Player Full Bộ." 
+}
+2024-12-03 21:11:48,426 - INFO - Successfully processed description for: Real Madrid away 23-24 bản player full bộ
+2024-12-03 21:11:48,427 - INFO - Successfully updated descriptions for product: Real Madrid away 23-24 bản player full bộ
+2024-12-03 21:11:48,427 - INFO - Updating descriptions for product: PUMA ULTRA ULTIMATE CAGE
+2024-12-03 21:11:48,427 - INFO - Processing product: PUMA ULTRA ULTIMATE CAGE
+2024-12-03 21:11:48,427 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: PUMA ULTRA ULTIMATE CAGE
+2024-12-03 21:11:48,431 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:12:07,577 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:12:07,579 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:12:07,580 - DEBUG - Raw Ollama Response: {
+  "description": "<h2>PUMA ULTRA ULTIMATE CAGE - Bộ Sưu Tập Thể Thao Khỏe Mạnh</h2><p>Nhận thông tin về siêu phẩm PUMA ULTRA ULTIMATE CAGE, một phần của bộ sưu tập thể thao khủng khiếp! Hãy đọc tiếp để biết thêm về các tính năng độc đáo và lợi ích khi sử dụng sản phẩm này.</p><h3>Thông Tin Chi Tiết</h3><ul><li> <strong>Tiết diện vượt trội:</strong> PUMA ULTRA ULTIMATE CAGE được thiết kế với các chi tiết tinh tế, giúp cải thiện hiệu suất thể thao và tạo ấn tượng tuyệt vời.</li><li> <strong>Sự linh hoạt tối đa:</strong> Thiết kế của sản phẩm cho phép bạn di chuyển một cách linh hoạt hơn trong các hoạt động thể thao khác nhau.</li><li> <strong>Chất liệu premium:</strong> PUMA ULTRA ULTIMATE CAGE được làm từ chất liệu cao cấp, đảm bảo sự thoải mái và độ bền lâu dài.</li></ul><h3>Lợi Ích Sử Dụng</h3><ul><li> <strong>Cải thiện hiệu suất thể thao:</strong> Sản phẩm giúp bạn tăng cường hiệu suất thể thao với thiết kế tinh tế và thoải mái.</li><li> <strong>Tăng cường độ linh hoạt:</strong> PUMA ULTRA ULTIMATE CAGE cho phép bạn di chuyển một cách tự do trong các hoạt động thể thao.</li><li> <strong>Sự thoải mái và độ bền lâu dài:</strong> Chất liệu cao cấp của sản phẩm đảm bảo sự thoải mái và độ bền lâu dài.</li></ul><h3>Thông Tin Về Chất Liệu Và Thiết Kế</h3><p>PUMA ULTRA ULTIMATE CAGE được thiết kế với các chi tiết tinh tế, giúp cải thiện hiệu suất thể thao và tạo ấn tượng tuyệt vời. Chất liệu cao cấp đảm bảo sự thoải mái và độ bền lâu dài.</p>",
+  "short_description": "PUMA ULTRA ULTIMATE CAGE - Bộ Sưu Tập Thể Thao Khỏe Mạnh, thiết kế vượt trội, linh hoạt tối đa, chất liệu premium"
+}
+2024-12-03 21:12:07,591 - INFO - Successfully processed description for: PUMA ULTRA ULTIMATE CAGE
+2024-12-03 21:12:07,591 - INFO - Successfully updated descriptions for product: PUMA ULTRA ULTIMATE CAGE
+2024-12-03 21:12:07,591 - INFO - Updating descriptions for product: NIKE ZOOM MERCURIAL VAPOR 15 PRO TF SHADOW
+2024-12-03 21:12:07,591 - INFO - Processing product: NIKE ZOOM MERCURIAL VAPOR 15 PRO TF SHADOW
+2024-12-03 21:12:07,591 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: NIKE ZOOM MERCURIAL VAPOR 15 PRO TF SHADOW
+2024-12-03 21:12:07,593 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:12:29,218 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:12:29,221 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:12:29,221 - DEBUG - Raw Ollama Response: {
+  "description": "<strong>Nike Zoom Mercurial Vapor 15 Pro TF Shadow</strong> - Bộ sưu tập thể thao tối tân với thiết kế hiện đại và công nghệ tiên tiến.<br><br>Khám phá thế giới thể thao với Nike, nơi mọi khát vọng trở thành hiện thực. Mẫu giày bóng đá Nike Zoom Mercurial Vapor 15 Pro TF Shadow là biểu tượng của tốc độ, khả năng nhảy cao và sự linh hoạt tuyệt vời trên sân cỏ. Dưới đây là một số tính năng nổi bật và lợi ích khi sử dụng sản phẩm này:<br><br>**Tính Năng Tuyệt Vời**:<ul style='list-style-type:disc'>\tGiày được trang bị thiết kế Vapor 15 Pro với các đường nét tinh tế và mỏng, tạo sự thoải mái tối đa cho người chơi.<br>\tCông nghệ Nike Zoom Air cung cấp phản hồi đàn hồi tốt khi chạy hoặc nhảy cao trên sân cỏ.<br>\tLớp vỏ ngoài làm bằng chất liệu tổng hợp cao cấp với độ bền cao và dễ dàng vệ sinh.<br>\tGọng giày được thiết kế để tạo sự thoải mái cho chân trong quá trình chơi bóng đá, giúp giảm thiểu tối đa các tình trạng đau nhức không mong muốn.<br></ul><br>**Khả Năng Sử Dụng**:<p>Nike Zoom Mercurial Vapor 15 Pro TF Shadow là một lựa chọn tuyệt vời cho mọi cầu thủ bóng đá. Với thiết kế tối ưu và công nghệ tiên tiến, sản phẩm này giúp bạn tăng cường khả năng di chuyển trên sân, đạt được tốc độ và sức mạnh cần thiết để ghi bàn thắng.<br></p><br>**Chất Lượng Và Hiệu Suất**:<ul style='list-style-type:disc'>\tSản phẩm được làm từ các chất liệu cao cấp, đảm bảo sự thoải mái và bền bỉ trong thời gian dài sử dụng.<br>\tKích thước giày phù hợp với mọi loại chân, tạo nên cảm giác thoải mái tối đa cho người chơi.<br>\tThiết kế hiện đại giúp cải thiện khả năng di chuyển trên sân cỏ, tăng cường tốc độ và sức mạnh cho mỗi pha bóng.<br></ul><br>**Sự Phù Hợp Cho Hoạt Động Thể Thao**:<p>Nike Zoom Mercurial Vapor 15 Pro TF Shadow là một lựa chọn tuyệt vời cho mọi hoạt động thể thao, từ bóng đá đến chạy bộ. Với thiết kế và công nghệ hiện đại, sản phẩm này giúp bạn đạt được hiệu suất cao nhất trong mọi tình huống.<br></p>",
+  "short_description": "<strong>Nike Zoom Mercurial Vapor 15 Pro TF Shadow</strong> - Bộ sưu tập thể thao tối tân với thiết kế hiện đại và công nghệ tiên tiến, cung cấp tốc độ, khả năng nhảy cao và sự linh hoạt tuyệt vời trên sân cỏ."
+}
+2024-12-03 21:12:29,222 - INFO - Successfully processed description for: NIKE ZOOM MERCURIAL VAPOR 15 PRO TF SHADOW
+2024-12-03 21:12:29,222 - INFO - Successfully updated descriptions for product: NIKE ZOOM MERCURIAL VAPOR 15 PRO TF SHADOW
+2024-12-03 21:12:29,222 - INFO - Updating descriptions for product: NIKE ZOOM MERCURIAL VAPOR 15 PRO TF SHADOW
+2024-12-03 21:12:29,222 - INFO - Processing product: NIKE ZOOM MERCURIAL VAPOR 15 PRO TF SHADOW
+2024-12-03 21:12:29,222 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: NIKE ZOOM MERCURIAL VAPOR 15 PRO TF SHADOW
+2024-12-03 21:12:29,225 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:12:45,657 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:12:45,662 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:12:45,662 - DEBUG - Raw Ollama Response: { 
+  "description": "<h1>Nike Zoom Mercurial Vapor 15 Pro TF Shadow</h1><p>Chất lượng hàng đầu và hiệu suất cao là những gì bạn nhận được khi sở hữu đôi giày thể thao Nike Zoom Mercurial Vapor 15 Pro TF Shadow. Thiết kế độc đáo cùng với các tính năng đặc biệt sẽ giúp bạn đạt được kết quả tốt nhất trong mọi hoạt động thể thao.</p><h2>Tính Năng Nổi Bật:</h2><ul><li>Chất liệu cao su tổng hợp siêu nhẹ và linh hoạt, giúp giảm thiểu ma sát tối đa khi di chuyển.</li><li>Công nghệ Zoom Air độc quyền của Nike cung cấp sự hỗ trợ và đệm mềm cho chân trong mọi tình huống.</li><li>Thiết kế đế giày hình tam giác đặc biệt giúp cải thiện độ bám dính trên mặt sân và tăng cường khả năng kiểm soát bóng.</li></ul><h2>Lợi Ích Sử Dụng:</h2><p>Sản phẩm này không chỉ mang lại sự thoải mái tối đa cho người dùng mà còn cung cấp sự hỗ trợ và ổn định cần thiết để đạt được hiệu suất cao trong các hoạt động thể thao. Với Nike Zoom Mercurial Vapor 15 Pro TF Shadow, bạn sẽ cảm thấy tự tin hơn khi thi đấu và có khả năng kiểm soát tốt mọi tình huống.</p><h2>Thông Sô Sơ:</h2><table border=\"1\" cellpadding=\"5\"><tr><th>Tên Sản Phẩm</th><td>Nike Zoom Mercurial Vapor 15 Pro TF Shadow</td></tr><tr><th>Chất Liệu</th><td>Cao su tổng hợp siêu nhẹ và linh hoạt</td></tr><tr><th>Công Nghệ</th><td>Zoom Air độc quyền của Nike</td></tr><tr><th>Màu Sắc</th><td>Shadow</td></tr><tr><th>Nhà Cung Cấp</th><td>Nike</td></tr></table>",
+  "short_description": "<b>Nike Zoom Mercurial Vapor 15 Pro TF Shadow</b>. Đôi giày thể thao hàng đầu với chất liệu siêu nhẹ và công nghệ Zoom Air độc quyền."
+}
+2024-12-03 21:12:45,662 - INFO - Successfully processed description for: NIKE ZOOM MERCURIAL VAPOR 15 PRO TF SHADOW
+2024-12-03 21:12:45,663 - INFO - Successfully updated descriptions for product: NIKE ZOOM MERCURIAL VAPOR 15 PRO TF SHADOW
+2024-12-03 21:12:45,663 - INFO - Updating descriptions for product: Áo giữ nhiệt đen
+2024-12-03 21:12:45,663 - INFO - Processing product: Áo giữ nhiệt đen
+2024-12-03 21:12:45,663 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Áo giữ nhiệt đen
+2024-12-03 21:12:45,665 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:12:58,602 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:12:58,607 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:12:58,608 - DEBUG - Raw Ollama Response: {
+  "description": "<h2>Áo Giữ Nhiệt Đen - Bộ Sưu Tập Thể Thao</h2><p>Thực hành tập luyện ngoài trời vào mùa đông? Hãy trang bị cho mình Áo Giữ Nhiệt Đen - một phần thiết yếu trong bộ sưu tập thể thao của chúng tôi. Với thiết kế tiện dụng và tinh tế, áo này không chỉ mang đến cảm giác ấm áp mà còn hỗ trợ bạn hoạt động hiệu quả hơn.</p><ul><li> <strong>Chất liệu giữ nhiệt</strong>: Áo được sản xuất từ chất liệu polyester cao cấp, cho phép duy trì nhiệt độ cơ thể trong điều kiện thời tiết lạnh nhất.</li><li> <strong>Lợi ích sử dụng</strong>: Giúp ngăn chặn sự mất mát của nhiệt lượng giúp bạn tập luyện và thi đấu hiệu quả hơn.</li><li> <strong>Chất liệu thông thoáng</strong>: Polyester đảm bảo sự thoáng khí, giúp hơi ẩm thoát ra ngoài tối đa, giữ cho người mặc cảm thấy thoải mái khi vận động.</li></ul><p>Các tính năng nổi bật của Áo Giữ Nhiệt Đen gồm:</p><ul><li>Thiết kế hiện đại và tinh tế</li><li>Chất liệu cao cấp giúp giữ nhiệt hiệu quả</li><li>Thông thoáng, không gây khó chịu khi vận động</li></ul><p>Hãy mang Áo Giữ Nhiệt Đen đến với bạn trong các hoạt động thể thao ngoài trời mùa đông. Chọn lựa ngay hôm nay và trải nghiệm sự khác biệt!</p>",
+  "short_description": "Áo Giữ Nhiệt Đen - Bộ Sưu Tập Thể Thao"
+}
+2024-12-03 21:12:58,609 - INFO - Successfully processed description for: Áo giữ nhiệt đen
+2024-12-03 21:12:58,610 - INFO - Successfully updated descriptions for product: Áo giữ nhiệt đen
+2024-12-03 21:12:58,610 - INFO - Updating descriptions for product: Áo giữ nhiệt đỏ
+2024-12-03 21:12:58,610 - INFO - Processing product: Áo giữ nhiệt đỏ
+2024-12-03 21:12:58,610 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Áo giữ nhiệt đỏ
+2024-12-03 21:12:58,617 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:13:26,679 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:13:26,683 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:13:26,683 - DEBUG - Raw Ollama Response: { 
+  "description": "<p><strong>Áo giữ nhiệt đỏ - Bộ sưu tập thể thao chất lượng cao</strong></p>",
+  "<p>&nbsp;</p><ul style=\"list-style-type: disc;\">\n\t<li><em>Hãy thử Áo giữ nhiệt đỏ từ bộ sưu tập thể thao của chúng tôi!</em></li>\n</ul><p>&#x200B;<br/></p><p><strong>Lý do nên chọn Áo giữ nhiệt đỏ:</strong></p><ul style=\"list-style-type: disc;\">\n\t<li><em>Chất liệu mềm và mỏng, giúp bạn cảm thấy thoải mái khi mặc.</em></li>\n\t<li><em>Tính năng giữ nhiệt tuyệt vời, duy trì nhiệt độ cơ thể ngay cả trong điều kiện thời tiết lạnh.</em></li>\n\t<li><em>Thiết kế hiện đại và sang trọng, phù hợp cho các hoạt động thể thao như đi bộ đường dài, chạy marathon hoặc tập luyện tại phòng tập.</em></li>\n\t<li><em>Nhẫn giữ nhiệt ở cổ giúp giữ ấm hiệu quả.</em></li>\n\t<li><em>Được thiết kế để thoải mái và linh hoạt khi vận động.</em></li>\n</ul><p>&#x200B;<br/></p><p><strong>Tính năng đặc biệt của Áo giữ nhiệt đỏ:</strong></p><ul style=\"list-style-type: disc;\">\n\t<li><em>Hệ thống thoát hơi và giữ ẩm hiện đại giúp bạn cảm thấy khô ráo.</em></li>\n\t<li><em>Chất liệu chống nhăn, giúp áo luôn giữ được hình dạng ban đầu.</em></li>\n</ul><p>&#x200B;<br/></p><p><strong>Lợi ích khi sử dụng Áo giữ nhiệt đỏ:</strong></p><ul style=\"list-style-type: disc;\">\n\t<li><em>Giữ ấm hiệu quả ngay cả trong điều kiện thời tiết lạnh.</em></li>\n\t<li><em>Cảm thấy thoải mái và tự tin khi tham gia các hoạt động thể thao.</em></li>\n\t<li><em>Dễ dàng vệ sinh và bảo quản.</em></li>\n</ul><p>&#x200B;<br/></p><p><strong>Thông số kỹ thuật của Áo giữ nhiệt đỏ:</strong></p><ul style=\"list-style-type: disc;\">\n\t<li><em>Chất liệu chính: Polyester 80%, Vải giữ ấm 20%.</em></li>\n\t<li><em>Hệ thống thoát hơi và giữ ẩm hiện đại.</em></li>\n\t<li><em>Các màu sắc có sẵn:</em> Đỏ, Xanh lá cây, Trắng.</li>\n</ul><p>&#x200B;<br/></p><p><strong>Nếu bạn đang tìm kiếm một chiếc áo thể thao chất lượng cao để tham gia các hoạt động thể thao hoặc đơn giản là muốn giữ ấm trong điều kiện thời tiết lạnh, Áo giữ nhiệt đỏ từ bộ sưu tập thể thao của chúng tôi chính là lựa chọn hoàn hảo.</strong></p>\n<p>&#x200B;</p><p style=\"text-align: center;\"><img src=\"https://cdn.fg.vn/upload/image_228388.jpg\" alt=\"\" style=\"width: 500px; height: 500px;\"></p>" 
+ 	: "description",
+  "short_description": "<p>Áo giữ nhiệt đỏ - Bộ sưu tập thể thao chất lượng cao, thiết kế hiện đại và sang trọng, phù hợp cho các hoạt động thể thao như đi bộ đường dài, chạy marathon hoặc tập luyện tại phòng tập.</p>"
+}
+2024-12-03 21:13:26,684 - INFO - Successfully processed description for: Áo giữ nhiệt đỏ
+2024-12-03 21:13:26,684 - INFO - Successfully updated descriptions for product: Áo giữ nhiệt đỏ
+2024-12-03 21:13:26,684 - INFO - Updating descriptions for product: Áo giữ nhiệt xanh biển
+2024-12-03 21:13:26,684 - INFO - Processing product: Áo giữ nhiệt xanh biển
+2024-12-03 21:13:26,684 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Áo giữ nhiệt xanh biển
+2024-12-03 21:13:26,687 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:13:47,009 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:13:47,013 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:13:47,013 - DEBUG - Raw Ollama Response: {
+  "description": "<h1>Áo giữ nhiệt xanh biển - Bộ sưu tập thể thao</h1><p>Công ty chúng tôi tự hào giới thiệu bộ sưu tập áo giữ nhiệt xanh biển, một sản phẩm tuyệt vời cho các hoạt động thể thao ngoài trời. Áo được thiết kế để cung cấp sự thoải mái và tiện lợi tối đa cho người dùng.</p><ul><li> <strong>Tính năng nổi bật:</strong> Áo giữ nhiệt xanh biển được làm từ chất liệu cao cấp, mềm mại và nhẹ nhàng, giúp giữ ấm cơ thể trong điều kiện thời tiết khắc nghiệt. Chất liệu cũng rất dễ vệ sinh và chống tĩnh điện.</li><li> <strong>Lợi ích khi sử dụng:</strong> Sản phẩm này sẽ giúp bạn duy trì nhiệt độ cơ thể ngay cả khi bạn đang hoạt động mạnh mẽ hoặc ở ngoài trời trong một thời gian dài. Áo giữ nhiệt xanh biển cũng rất phổ biến với những người yêu thích chơi thể thao, đi bộ đường dài, cắm trại hoặc đơn giản là muốn cảm thấy thoải mái và ấm áp.</li><li> <strong>Chất liệu:</strong> Áo được làm từ chất liệu polyester cao cấp, mềm mại và nhẹ nhàng. Chất liệu này cũng rất bền, có thể chống lại các tác động của thời tiết khắc nghiệt và giúp duy trì hình dạng ban đầu lâu hơn.</li></ul><p>Nếu bạn đang tìm kiếm một sản phẩm thể thao đa năng, thoải mái và tiện lợi, thì áo giữ nhiệt xanh biển chính là lựa chọn tuyệt vời dành cho bạn. Áo được thiết kế để phù hợp với nhiều hoạt động khác nhau, từ chạy bộ, đi bộ đường dài đến chơi thể thao hoặc đơn giản là muốn cảm thấy thoải mái khi ở ngoài trời.</p><h2>Thông số kỹ thuật:</h2><ul><li> <strong>Xanh biển:</strong> Màu sắc chính của sản phẩm</li><li> <strong>Polyester:</strong> Chất liệu chính được sử dụng để làm áo giữ nhiệt</li><li> <strong>Cỡ:</strong> Có nhiều cỡ khác nhau để chọn phù hợp với kích thước cơ thể của bạn</li></ul><p>Với bộ sưu tập áo giữ nhiệt xanh biển, bạn sẽ luôn có một sản phẩm tuyệt vời và thoải mái để sử dụng cho các hoạt động thể thao hoặc ngoài trời. Hãy khám phá thêm về sản phẩm này bằng cách đọc thông tin chi tiết dưới đây.</p>",
+  "short_description": "<strong>Áo giữ nhiệt xanh biển</strong><br>Chất liệu: Polyester cao cấp<br>Tính năng nổi bật: Giữ ấm, thoải mái và tiện lợi<br>Lợi ích khi sử dụng: Phù hợp với nhiều hoạt động thể thao khác nhau"
+}
+2024-12-03 21:13:47,014 - INFO - Successfully processed description for: Áo giữ nhiệt xanh biển
+2024-12-03 21:13:47,014 - INFO - Successfully updated descriptions for product: Áo giữ nhiệt xanh biển
+2024-12-03 21:13:47,014 - INFO - Updating descriptions for product: ADIDAS PREDATOR EDGE .3 LOW TF GAME DATA
+2024-12-03 21:13:47,014 - INFO - Processing product: ADIDAS PREDATOR EDGE .3 LOW TF GAME DATA
+2024-12-03 21:13:47,014 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: ADIDAS PREDATOR EDGE .3 LOW TF GAME DATA
+2024-12-03 21:13:47,016 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:14:03,882 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:14:03,887 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:14:03,888 - DEBUG - Raw Ollama Response: { 
+  "description": "<h2>ADIDAS PREDATOR EDGE .3 LOW TF GAME DATA - Sự Kết Hôn giữa Kỹ Năng và Tính Năng</h2><p>Các bạn yêu bóng đá, chào đón sản phẩm thể thao mới nhất đến từ adidas - ADIDAS PREDATOR EDGE .3 LOW TF GAME DATA! Với thiết kế tinh tế và các tính năng tiên tiến, sản phẩm này chắc chắn sẽ mang lại cho bạn trải nghiệm chơi bóng tốt hơn.</p><h4>Thông tin sản phẩm:</h4><ul><li>Sản phẩm: ADIDAS PREDATOR EDGE .3 LOW TF GAME DATA</li><li>Thương hiệu: adidas</li><li>Loại hình thể thao: Bóng đá</li></ul><p><strong>Tính Năng Chính:</strong></p><ul><li><em>Công nghệ Boost: </em>mang lại sự đàn hồi và độ êm ái cho mỗi bước chân.</li><li><em>Thiết kế tổng thể: </em>tối ưu hóa sự linh hoạt và giúp bạn di chuyển nhanh chóng trên sân bóng.</li></ul><p><strong>Lợi Ích Sử Dụng:</strong></p><ul><li>Hỗ trợ và ổn định cho từng bước chân</li><li>Tăng cường khả năng di chuyển nhanh chóng và linh hoạt trên sân</li><li>Đàn hồi tốt, giảm thiểu tổn thương các khớp xương khi chơi bóng.</li></ul><p><strong>Chất Liệu Và Thiết Kế:</strong></p><ul><li>Sử dụng chất liệu cao cấp, bền vững và thoải mái cho da chân.</li><li>Thiết kế tinh tế, tối ưu hóa sự linh hoạt và giúp tăng tốc độ di chuyển.</li></ul><p><strong>Sự Phù Hợp Cho Các Hoạt Động Thể Thao:</strong></p><ul><li>Nhất định phù hợp cho các hoạt động bóng đá, mang lại sự thoải mái và hỗ trợ tối ưu.</li></ul>", 
+  "short_description": "ADIDAS PREDATOR EDGE .3 LOW TF GAME DATA - Thiết kế tiên tiến, công nghệ Boost, chất liệu cao cấp, thiết kế tinh tế và tối ưu hóa sự linh hoạt." 
+}
+2024-12-03 21:14:03,888 - INFO - Successfully processed description for: ADIDAS PREDATOR EDGE .3 LOW TF GAME DATA
+2024-12-03 21:14:03,888 - INFO - Successfully updated descriptions for product: ADIDAS PREDATOR EDGE .3 LOW TF GAME DATA
+2024-12-03 21:14:03,889 - INFO - Updating descriptions for product: ADIDAS X SPEEDFLOW MESSI .1 TF MI HISTORIA
+2024-12-03 21:14:03,889 - INFO - Processing product: ADIDAS X SPEEDFLOW MESSI .1 TF MI HISTORIA
+2024-12-03 21:14:03,889 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: ADIDAS X SPEEDFLOW MESSI .1 TF MI HISTORIA
+2024-12-03 21:14:03,894 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:14:33,911 - ERROR - Request failed for product ADIDAS X SPEEDFLOW MESSI .1 TF MI HISTORIA: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)
+2024-12-03 21:14:33,913 - WARNING - Attempt 1 failed. Retrying in 2 seconds...
+2024-12-03 21:14:35,925 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:14:48,323 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:14:48,325 - DEBUG - Attempt 2 - Status code: 200
+2024-12-03 21:14:48,327 - DEBUG - Raw Ollama Response: {
+  "description": "<p><strong>ADIDAS X SPEEDFLOW MESSI .1 TF MI HISTORIA</strong></p><p>Công thức mới về Adidas X Speedflow Messi .1 TF Mi Historia được thiết kế để mang lại sự linh hoạt và sức mạnh cho các cầu thủ bóng đá. Với trọng lượng nhẹ và kiểu dáng tinh tế, đây là đôi giày thể thao hoàn hảo cho những người yêu thích trò chơi này.</p><ul> <li>Được tạo ra từ chất liệu <strong>Pu</strong>, <strong>Mesh</strong> và <strong>TPU</strong> để cung cấp sự linh hoạt tối đa.</li> <li>Thiết kế <strong>X-speedflow</strong> giúp giảm thiểu thời gian chuyển động và tăng cường tốc độ.</li> <li>Tái tạo lại phong cách của Lionel Messi, mang đến cảm giác như đang chơi cùng siêu sao bóng đá.</li> </ul><p>Mang đến trải nghiệm hoàn hảo cho các cầu thủ bóng đá, ADIDAS X SPEEDFLOW MESSI .1 TF MI HISTORIA hứa hẹn sẽ là một trong những đôi giày thể thao được yêu thích nhất trong thời gian tới. Tất nhiên cũng không thể bỏ qua thiết kế đặc trưng của Messi và mọi thứ đều chỉn chu đến từng chi tiết nhỏ.</p><p>Xem ngay bài viết này để biết thêm thông tin về sản phẩm Adidas X Speedflow Messi .1 TF Mi Historia!</p>",
+  "short_description": "<p>ADIDAS X SPEEDFLOW MESSI .1 TF MI HISTORIA - Công thức mới từ Adidas X Speedflow, thiết kế tinh tế và trọng lượng nhẹ.</p>"
+}
+2024-12-03 21:14:48,328 - INFO - Successfully processed description for: ADIDAS X SPEEDFLOW MESSI .1 TF MI HISTORIA
+2024-12-03 21:14:48,328 - INFO - Successfully updated descriptions for product: ADIDAS X SPEEDFLOW MESSI .1 TF MI HISTORIA
+2024-12-03 21:14:48,328 - INFO - Updating descriptions for product: Tuyển Ý home Euro 2024 bản player full bộ
+2024-12-03 21:14:48,328 - INFO - Processing product: Tuyển Ý home Euro 2024 bản player full bộ
+2024-12-03 21:14:48,328 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Tuyển Ý home Euro 2024 bản player full bộ
+2024-12-03 21:14:48,330 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:15:06,364 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:15:06,366 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:15:06,367 - DEBUG - Raw Ollama Response: {
+  "description": "<h1>Tuyển Ý Home Euro 2024 Bản Player Full Bộ</h1><p>Chào mừng bạn đến với sản phẩm thể thao độc đáo - Tuyển Ý Home Euro 2024 Bản Player Full Bộ! Đây là một trong những sản phẩm hàng đầu trong bộ sưu tập thể thao của chúng tôi, mang lại cho người dùng cảm giác tự tin và thoải mái khi tham gia các hoạt động thể thao.</p><p>**Tính Nổi Bật:**</p><ul><li>Sản phẩm được thiết kế với màu sắc chính thức của đội tuyển Ý, đảm bảo sự phù hợp hoàn hảo với phong cách thể thao của bạn.</li><li>Là một bộ đầy đủ bao gồm áo đấu, quần và giày thể thao chuyên nghiệp.</li><li>Chất liệu cao cấp, mềm mại và bền chắc đảm bảo cho người dùng cảm giác thoải mái khi vận động.</li><li>Thiết kế hiện đại và tinh tế phù hợp với các hoạt động thể thao từ chạy bộ đến bóng đá.</li></ul><p>**Lợi Ích Sử Dụng:**</p><ul><li>Phù hợp cho nhiều loại hoạt động thể thao khác nhau, giúp người dùng tự tin khi tham gia các trò chơi hoặc tập luyện.</li><li>Cảm giác thoải mái và tự do khi vận động nhờ chất liệu cao cấp và thiết kế hiện đại.</li><li>Là một lựa chọn tuyệt vời cho những người yêu thích thể thao và muốn thể hiện phong cách của mình.</li></ul><p>**Chất Liệu Và Thiết Kế:**</p><ul><li>Sản phẩm được làm từ chất liệu cao cấp, mềm mại và bền chắc đảm bảo cho người dùng cảm giác thoải mái khi vận động.</li><li>Thiết kế hiện đại và tinh tế phù hợp với các hoạt động thể thao từ chạy bộ đến bóng đá.</li></ul><p>**Sự Phù Hợp:**</p><ul><li>Phù hợp cho nhiều loại hoạt động thể thao khác nhau, giúp người dùng tự tin khi tham gia các trò chơi hoặc tập luyện.</li><li>Là một lựa chọn tuyệt vời cho những người yêu thích thể thao và muốn thể hiện phong cách của mình.</li></ul>",
+  "short_description": "Tuyển Ý Home Euro 2024 Bản Player Full Bộ - bộ đầy đủ áo đấu, quần và giày thể thao chuyên nghiệp với màu sắc chính thức của đội tuyển Ý"
+}
+2024-12-03 21:15:06,367 - INFO - Successfully processed description for: Tuyển Ý home Euro 2024 bản player full bộ
+2024-12-03 21:15:06,368 - INFO - Successfully updated descriptions for product: Tuyển Ý home Euro 2024 bản player full bộ
+2024-12-03 21:15:06,368 - INFO - Updating descriptions for product: Real Madrid 3rd 23-24 bản player full bộ
+2024-12-03 21:15:06,368 - INFO - Processing product: Real Madrid 3rd 23-24 bản player full bộ
+2024-12-03 21:15:06,368 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Real Madrid 3rd 23-24 bản player full bộ
+2024-12-03 21:15:06,373 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:15:33,387 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:15:33,391 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:15:33,392 - DEBUG - Raw Ollama Response: { 
+  "description": "<p><b>Real Madrid 3rd 23-24 Bản Player Full Bộ</b></p><h2 style=\"text-align: center;\">Tuyển Tập Đa Kĩ Thuật Cho Người Hâm Mộ Cuối Cùng</h2><p>&#x1F60A; Sơ Mi Trơn - Lấy cảm hứng từ bộ sưu tập chính thức của Real Madrid, đây là một trong những trang phục hoàn hảo cho các người hâm mộ. Sơ mi trơn màu trắng tinh tế kết hợp với họa tiết cổ điển tạo nên một hình ảnh ấn tượng.</p><p>&#x1F60A; Quần Đen - Thiết kế đơn giản nhưng vẫn mang lại cảm giác thoải mái khi mặc. Đây là trang phục lý tưởng cho những người yêu bóng đá luôn sẵn sàng để thể hiện tình cảm của mình.</p><p>&#x1F60A; Ký Ta Màu Trắng - Tượng trưng cho tinh thần đấu tranh và sự tự tin, đây là một biểu tượng tuyệt vời để ghi lại khoảnh khắc đặc biệt trong cuộc sống.</p><h2 style=\"text-align: center;\">Chất Lượng Cao Và Sự Phù Hợp</h2><ul style=\"list-style-type: none; padding: 0px; margin: 0px\"><li style=\"display: inline-block;\">Sơ mi trơn được làm từ chất liệu mềm và mỏng, giúp bạn cảm thấy thoải mái khi mặc.</li><li style=\"display: inline-block;\">Quần đen được thiết kế với độ bền cao, đảm bảo rằng nó sẽ không bị rách sau nhiều lần sử dụng.</li><li style=\"display: inline-block;\">Ký ta màu trắng được làm từ chất liệu cao cấp, giúp bạn thể hiện sự tự tin và tinh thần đấu tranh trong cuộc sống.</li></ul><p>&#x1F60A; Các sản phẩm đều được thiết kế với họa tiết cổ điển, mang lại cảm giác truyền thống và lịch sử cho người mặc. Sơ mi trơn màu trắng tinh tế cùng quần đen và ký ta màu trắng tạo nên một trang phục hoàn hảo cho các người hâm mộ Real Madrid.</p><h2 style=\"text-align: center;\">Lợi Ích Sử Dụng</h2><ul style=\"list-style-type: none; padding: 0px; margin: 0px\"><li style=\"display: inline-block;\">Sơ mi trơn màu trắng giúp bạn cảm thấy thoải mái và tự tin khi mặc.</li><li style=\"display: inline-block;\">Quần đen được thiết kế với độ bền cao, đảm bảo rằng nó sẽ không bị rách sau nhiều lần sử dụng.</li><li style=\"display: inline-block;\">Ký ta màu trắng giúp bạn thể hiện sự tự tin và tinh thần đấu tranh trong cuộc sống.</li></ul><p>&#x1F60A; Với chất lượng cao và thiết kế sang trọng, Real Madrid 3rd 23-24 Bản Player Full Bộ là một trong những trang phục hoàn hảo cho các người hâm mộ. Nếu bạn đang tìm kiếm một sản phẩm thể thao đa kĩ thuật để thể hiện tình cảm của mình, thì đây chính là lựa chọn tuyệt vời dành cho bạn.</p>",
+"short_description": "Real Madrid 3rd 23-24 Bản Player Full Bộ là một tuyển tập đa kĩ thuật bao gồm sơ mi trơn màu trắng tinh tế, quần đen được thiết kế với độ bền cao và ký ta màu trắng giúp thể hiện sự tự tin và tinh thần đấu tranh trong cuộc sống. Đây là một trang phục hoàn hảo cho các người hâm mộ Real Madrid."
+}
+2024-12-03 21:15:33,392 - INFO - Successfully processed description for: Real Madrid 3rd 23-24 bản player full bộ
+2024-12-03 21:15:33,392 - INFO - Successfully updated descriptions for product: Real Madrid 3rd 23-24 bản player full bộ
+2024-12-03 21:15:33,392 - INFO - Updating descriptions for product: Mu retro 86-87
+2024-12-03 21:15:33,392 - INFO - Processing product: Mu retro 86-87
+2024-12-03 21:15:33,392 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Mu retro 86-87
+2024-12-03 21:15:33,394 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:15:51,333 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:15:51,335 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:15:51,335 - DEBUG - Raw Ollama Response: {
+  "description": "<p>Mu retro 86-87 là một trong số ít bộ sưu tập thể thao được thiết kế để đáp ứng nhu cầu của các vận động viên và người yêu thích môn thể thao. Sản phẩm này mang tới cho người dùng cảm giác thoải mái và tự tin khi tham gia vào các hoạt động thể thao.</p><h2>Tính Nổi Bật:</h2><ul><li>Chất liệu cao cấp, nhẹ và mềm mỏng, giúp giảm thiểu áp lực lên cơ thể.</li><li>Thiết kế hiện đại, linh hoạt và thoải mái, phù hợp cho nhiều hoạt động thể thao khác nhau.</li><li>Cấu trúc vững chắc, đảm bảo sự an toàn và ổn định khi sử dụng.</li></ul><p>Để có thêm thông tin chi tiết về Mu retro 86-87 cũng như các sản phẩm khác trong bộ sưu tập này, vui lòng truy cập trang chủ của chúng tôi để được tư vấn bởi đội ngũ chuyên gia giàu kinh nghiệm. Mọi thắc mắc hoặc câu hỏi xin vui vẻ liên hệ với chúng tôi qua đường dây nóng tại địa chỉ sau: <a href='https://www.muvi.vn/'>https://www.muvi.vn</a></p><h2>Lợi Ích:</h2><ul><li>Giúp tăng cường sức mạnh và sự linh hoạt của cơ thể.</li><li>Đảm bảo sự an toàn và ổn định khi tham gia các hoạt động thể thao.</li><li>Phù hợp cho nhiều loại hình thể thao khác nhau.</li></ul><p>Trong suốt quá trình sản xuất, Mu retro 86-87 được kiểm tra nghiêm ngặt để đảm bảo chất lượng cao. Các bước kiểm tra bao gồm đánh giá về độ chắc chắn và sự an toàn của sản phẩm.</p><h2>Các Thông Tin Cụ Thể:</h2><ul><li>Chất liệu: Cao cấp, nhẹ và mềm mỏng.</li><li>Thiết kế: Hiện đại, linh hoạt và thoải mái.</li><li>Kích thước: Có nhiều kích thước khác nhau để phù hợp với nhu cầu của từng người dùng.</li></ul>",
+  "short_description": "Mu retro 86-87 - Bộ sưu tập thể thao cao cấp, nhẹ và mềm mỏng, thiết kế hiện đại và linh hoạt, đảm bảo sự an toàn và thoải mái khi tham gia các hoạt động thể thao."
+}
+2024-12-03 21:15:51,335 - INFO - Successfully processed description for: Mu retro 86-87
+2024-12-03 21:15:51,335 - INFO - Successfully updated descriptions for product: Mu retro 86-87
+2024-12-03 21:15:51,335 - INFO - Updating descriptions for product: Tuyển Pháp 1998
+2024-12-03 21:15:51,335 - INFO - Processing product: Tuyển Pháp 1998
+2024-12-03 21:15:51,335 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Tuyển Pháp 1998
+2024-12-03 21:15:51,343 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:16:13,204 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:16:13,206 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:16:13,206 - DEBUG - Raw Ollama Response: {"description": "<h2>Tuyển Pháp 1998 - Bộ Sưu Tập Thể Thao Chính Thức</h2><p>Công ty chúng tôi tự hào giới thiệu Bộ Sưu Tập Thể Thao Tuyển Pháp 1998, một trong những bộ sưu tập thể thao nổi tiếng và chính thức nhất mọi thời đại. Với thiết kế tinh tế và các tính năng vượt trội, sản phẩm này chắc chắn sẽ đáp ứng nhu cầu của bất kỳ fan hâm mộ bóng đá nào.</p><ul><li>Thiết kế chính thức: Tuyển Pháp 1998 được thiết kế theo phong cách riêng biệt của đội tuyển quốc gia tại Thế vận hội Paris năm 1998.</li><li>Tính năng vượt trội: Bộ sưu tập bao gồm các sản phẩm thể thao chất lượng cao, đảm bảo sự thoải mái và hiệu suất khi sử dụng trong các hoạt động thể thao.</li></ul><p>Lợi ích khi sử dụng:</p><ul><li>Khả năng di chuyển linh hoạt: Các sản phẩm thể thao trong bộ sưu tập này được thiết kế để cung cấp khả năng di chuyển linh hoạt và thoải mái, giúp bạn tự do thực hiện các động tác thể thao.</li><li>Cảm giác thoải mái: Chất liệu sử dụng là chất lượng cao, mang lại cảm giác thoải mái và dễ chịu khi sử dụng.</li></ul><p>Chất liệu:</p><p>Sản phẩm này được làm từ chất liệu mềm mịn, bền đẹp, đảm bảo sự thoải mái cho người dùng. Chất liệu được lựa chọn cẩn thận để đáp ứng nhu cầu của các hoạt động thể thao khác nhau.</p><p>Đặc điểm nổi bật:</p><ul><li>Túi xách rời: Bộ sưu tập này còn bao gồm túi xách rời, có thể sử dụng như một sản phẩm độc lập hoặc kết hợp với các sản phẩm khác trong bộ sưu tập để tạo nên một bộ trang phục hoàn chỉnh.</li></ul><p>Sự phù hợp:</p><ul><li>Hoạt động thể thao: Bộ sưu tập này được thiết kế dành cho hoạt động thể thao hàng ngày, từ đi bộ đến chạy bộ và các môn thể thao khác.</li></ul>", "short_description": "<h2>Tuyển Pháp 1998 - Bộ Sưu Tập Thể Thao Chính Thức</h2><p>Công ty chúng tôi giới thiệu Bộ Sưu Tập Thể Thao Tuyển Pháp 1998, một trong những bộ sưu tập thể thao nổi tiếng và chính thức nhất mọi thời đại. Với thiết kế tinh tế và các tính năng vượt trội.</p>", "sản phẩm": "Tuyển Pháp 1998", "loại sản phẩm": "Bộ sưu tập thể thao", "tính năng": "chất liệu mềm mịn, bền đẹp; túi xách rời; thiết kế chính thức của đội tuyển quốc gia tại Thế vận hội Paris năm 1998" }
+2024-12-03 21:16:13,207 - INFO - Successfully processed description for: Tuyển Pháp 1998
+2024-12-03 21:16:13,207 - INFO - Successfully updated descriptions for product: Tuyển Pháp 1998
+2024-12-03 21:16:13,207 - INFO - Updating descriptions for product: Tuyển Anh sân nhà WC22 bản player full bộ
+2024-12-03 21:16:13,207 - INFO - Processing product: Tuyển Anh sân nhà WC22 bản player full bộ
+2024-12-03 21:16:13,207 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Tuyển Anh sân nhà WC22 bản player full bộ
+2024-12-03 21:16:13,213 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:16:35,701 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:16:35,704 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:16:35,704 - DEBUG - Raw Ollama Response: {
+  "description": "<h1>Tuyển Anh sân nhà WC22 bản Player full bộ</h1><p>Chào mừng bạn đến với bộ sưu tập thể thao Tuyển Anh sân nhà WC22 bản Player full bộ! Đây là một trong những sản phẩm độc đáo và ấn tượng nhất của chúng tôi, được thiết kế để đáp ứng nhu cầu của các fan hâm mộ bóng đá và người yêu thích môn thể thao này.</p><h2>Thông tin sản phẩm</h2><ul><li>Tên sản phẩm: Tuyển Anh sân nhà WC22 bản Player full bộ</li><li>Loại sản phẩm: Bộ đồ tập thể thao (áo, quần, giày)</li><li>Nhà sản xuất: [Tên nhãn hàng]</li></ul><p>Về thiết kế và chất liệu:</p><p>Tuyển Anh sân nhà WC22 bản Player full bộ được làm từ các vật liệu cao cấp, đảm bảo độ thoải mái và độ bền vượt trội. Thiết kế tinh tế và hiện đại sẽ giúp bạn trở thành trung tâm chú ý trên sân tập hoặc sân bóng.</p><h2>Tính năng nổi bật</h2><ul><li>Chất liệu mềm và mỏng, không gây khó chịu khi mặc</li><li>Thiết kế độc đáo và cá tính, phù hợp cho các hoạt động thể thao đường phố</li><li>Sản phẩm được thiết kế để giúp bạn trở nên tự tin hơn trong quá trình tập luyện hoặc thi đấu</li></ul><p>Về lợi ích sử dụng:</p><p>Tuyển Anh sân nhà WC22 bản Player full bộ không chỉ là một sản phẩm trang phục thể thao thông thường, mà còn mang lại rất nhiều lợi ích cho người dùng. Ngoài việc trở thành biểu tượng của phong cách và cá tính, sản phẩm này cũng giúp bạn cảm thấy tự tin hơn khi tập luyện hoặc thi đấu.</p><h2>Ưu điểm về chất lượng và hiệu suất</h2><ul><li>Sản phẩm được làm từ các vật liệu cao cấp và có độ bền vượt trội</li><li>Thiết kế tinh tế và hiện đại, giúp bạn trở thành trung tâm chú ý trên sân tập hoặc sân bóng</li></ul><p>Với Tuyển Anh sân nhà WC22 bản Player full bộ, bạn sẽ không chỉ nhận được một sản phẩm trang phục thể thao, mà còn là trải nghiệm tuyệt vời về chất lượng và hiệu suất. Đừng bỏ lỡ cơ hội sở hữu một trong những sản phẩm độc đáo nhất của chúng tôi!</p><h2>Thông tin chi tiết về sản phẩm</h2><ul><li>Màu sắc: [Màu sắc]</li><li>Kích thước: [Kích thước]</li><li>Vật liệu: [Vật liệu]</li></ul>",
+  "short_description": "Tuyển Anh sân nhà WC22 bản Player full bộ - Bộ đồ tập thể thao độc đáo và ấn tượng, được thiết kế để đáp ứng nhu cầu của các fan hâm mộ bóng đá và người yêu thích môn thể thao này."
+}
+2024-12-03 21:16:35,704 - INFO - Successfully processed description for: Tuyển Anh sân nhà WC22 bản player full bộ
+2024-12-03 21:16:35,705 - INFO - Successfully updated descriptions for product: Tuyển Anh sân nhà WC22 bản player full bộ
+2024-12-03 21:16:35,705 - INFO - Updating descriptions for product: Anh sân khách WC22 bản fan full bộ
+2024-12-03 21:16:35,705 - INFO - Processing product: Anh sân khách WC22 bản fan full bộ
+2024-12-03 21:16:35,705 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Anh sân khách WC22 bản fan full bộ
+2024-12-03 21:16:35,707 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:16:53,360 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:16:53,362 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:16:53,363 - DEBUG - Raw Ollama Response: {
+  "description": "<h1>Anh Sân Khách WC22 Bản Fan Full Bộ</h1><p>Chào mừng bạn đến với bộ sưu tập thể thao Anh Sân Khách WC22 Bản Fan Full Bộ, thiết kế để đáp ứng nhu cầu của các người hâm mộ bóng đá yêu thích sự tiện nghi và thoải mái khi theo dõi các trận đấu trên sân khách. Với thiết kế độc đáo và chất liệu cao cấp, bộ quần áo này sẽ giúp bạn trở thành một fan cứng và đáng gờm của câu lạc bộ.</p><h2>Tính Nổi Bật</h2><ul><li>Thiết kế đầy màu sắc và phong cách hiện đại, thể hiện sự trung thành với đội bóng yêu thích.</li><li>Chất liệu cao cấp và mềm mại, mang lại cảm giác thoải mái khi mặc.</li><li>Cấu trúc tiện dụng và dễ dàng di chuyển, phù hợp cho các hoạt động thể thao như đi du lịch hoặc theo dõi trận đấu ở sân khách.</li></ul><h2>Lợi Ích Sử Dụng</h2><ul><li>Giúp bạn thể hiện sự trung thành với đội bóng yêu thích.</li><li>Cung cấp cảm giác thoải mái và tiện nghi khi mặc, giúp bạn tận hưởng thời gian theo dõi các trận đấu mà không bị gián đoạn bởi các vấn đề về trang phục.</li><li>Là một phần tuyệt vời của bộ sưu tập thể thao Anh Sân Khách WC22 Bản Fan Full Bộ, đảm bảo rằng bạn sẽ trở thành một fan cứng và đáng gờm của câu lạc bộ.</li></ul><h2>Thiết Kế Và Chất Liệu</h2><p>Được thiết kế theo phong cách hiện đại với đầy màu sắc, Anh Sân Khách WC22 Bản Fan Full Bộ là sự kết hợp hoàn hảo giữa chức năng và thẩm mỹ. Chất liệu cao cấp và mềm mại đảm bảo rằng bạn sẽ cảm thấy thoải mái khi mặc bộ quần áo này. Cấu trúc tiện dụng và dễ dàng di chuyển cũng giúp bạn dễ dàng thực hiện các hoạt động thể thao mà không bị giới hạn bởi các yếu tố về trang phục.</p>",
+  "short_description": "Thiết kế độc đáo, chất liệu cao cấp và đầy màu sắc, bộ quần áo Anh Sân Khách WC22 Bản Fan Full Bộ là sự lựa chọn tuyệt vời cho các fan cứng của câu lạc bộ"
+}
+2024-12-03 21:16:53,363 - INFO - Successfully processed description for: Anh sân khách WC22 bản fan full bộ
+2024-12-03 21:16:53,363 - INFO - Successfully updated descriptions for product: Anh sân khách WC22 bản fan full bộ
+2024-12-03 21:16:53,363 - INFO - Updating descriptions for product: Bỉ sân nhà WC22 bản fan full bộ
+2024-12-03 21:16:53,363 - INFO - Processing product: Bỉ sân nhà WC22 bản fan full bộ
+2024-12-03 21:16:53,363 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Bỉ sân nhà WC22 bản fan full bộ
+2024-12-03 21:16:53,366 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:17:13,092 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:17:13,094 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:17:13,094 - DEBUG - Raw Ollama Response: { 
+  "description": "<p><strong>B̉̃i sân nhà WC22 Bản Fan Full Bộ</strong></p> <h2>Mô tả sản phẩm</h2> <p>B̉̃i sân nhà WC22 Bản Fan Full Bộ là một sản phẩm thể thao cao cấp được thiết kế để đáp ứng nhu cầu của người dùng yêu thích môn thể thao này. Sản phẩm này có thể giúp bạn cải thiện kỹ năng và hiệu suất trong các hoạt động thể thao.</p> <h2>Tính năng nổi bật</h2> <ul> <li><strong>Cấu trúc hiện đại</strong>: B̉̃i sân nhà WC22 Bản Fan Full Bộ được thiết kế với cấu trúc hiện đại, giúp giảm thiểu độ trơn trượt và tăng cường sự ổn định.</li> <li><strong>Thiết kế đẹp mắt</strong>: Sản phẩm này có thiết kế bắt mắt, tạo nên một hình ảnh ấn tượng trên sân vận động.</li> <li><strong>Chất liệu tốt</strong>: B̉̃i sân nhà WC22 Bản Fan Full Bộ được làm từ chất liệu cao cấp, giúp tăng cường độ bền và giảm thiểu sự hao mòn do thời tiết.</li> </ul> <h2>Lợi ích khi sử dụng</h2> <ul> <li><strong>Cải thiện kỹ năng</strong>: Sản phẩm này có thể giúp bạn cải thiện kỹ năng và hiệu suất trong các hoạt động thể thao.</li> <li><strong>Tăng cường sự ổn định</strong>: B̉̃i sân nhà WC22 Bản Fan Full Bộ được thiết kế để tăng cường sự ổn định, giúp giảm thiểu rủi ro chấn thương.</li> </ul> <h2>Chất liệu và thiết kế</h2> <p>B̉̃i sân nhà WC22 Bản Fan Full Bộ được làm từ chất liệu cao cấp, giúp tăng cường độ bền và giảm thiểu sự hao mòn do thời tiết. Thiết kế của sản phẩm này là một kết hợp giữa tính năng và vẻ đẹp.</p> <h2>Sự phù hợp cho các hoạt động thể thao</h2> <ul> <li><strong>Phù hợp cho các môn thể thao khác nhau</strong>: B̉̃i sân nhà WC22 Bản Fan Full Bộ được thiết kế để phù hợp với nhiều môn thể thao khác nhau, giúp bạn có thể tận dụng tối đa sản phẩm này trong các hoạt động thể thao.</li> </ul>", 
+  "short_description": "B̉̃i sân nhà WC22 Bản Fan Full Bộ - Sản phẩm thể thao cao cấp với cấu trúc hiện đại, thiết kế đẹp mắt và chất liệu tốt, phù hợp cho nhiều môn thể thao khác nhau." 
+}
+2024-12-03 21:17:13,094 - INFO - Successfully processed description for: Bỉ sân nhà WC22 bản fan full bộ
+2024-12-03 21:17:13,094 - INFO - Successfully updated descriptions for product: Bỉ sân nhà WC22 bản fan full bộ
+2024-12-03 21:17:13,094 - INFO - Updating descriptions for product: Bồ Đào Nha sân nhà WC22 bản fan full bộ
+2024-12-03 21:17:13,094 - INFO - Processing product: Bồ Đào Nha sân nhà WC22 bản fan full bộ
+2024-12-03 21:17:13,094 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Bồ Đào Nha sân nhà WC22 bản fan full bộ
+2024-12-03 21:17:13,098 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:17:43,106 - ERROR - Request failed for product Bồ Đào Nha sân nhà WC22 bản fan full bộ: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)
+2024-12-03 21:17:43,107 - WARNING - Attempt 1 failed. Retrying in 2 seconds...
+2024-12-03 21:17:45,119 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:18:07,882 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:18:07,884 - DEBUG - Attempt 2 - Status code: 200
+2024-12-03 21:18:07,885 - DEBUG - Raw Ollama Response: {
+  "description": "<h2>Bộ Sưu Tập Thể Thao Bồ Đào Nha - Sân Nhà WC22 Bản Fan Full Bộ</h2><p>Công ty chúng tôi tự hào giới thiệu đến bạn Bộ Sưu Tập Thể Thao Bồ Đào Nha - Sân Nhà WC22 Bản Fan Full Bộ, một trong những lựa chọn hàng đầu cho các vận động viên và người yêu thể thao. Bộ sưu tập này được thiết kế để đáp ứng nhu cầu cao nhất của bạn, với sự kết hợp hoàn hảo giữa chất lượng, hiệu suất và phong cách.</p><ul><li> <strong>Tính Năng Chất Lượng Cao:</strong> Bộ Sưu Tập Thể Thao Bồ Đào Nha - Sân Nhà WC22 Bản Fan Full Bộ được sản xuất bằng các nguyên liệu cao cấp, đảm bảo độ bền và sự thoải mái trong quá trình sử dụng. Mỗi chi tiết đã được xem xét kỹ lưỡng để mang lại trải nghiệm tuyệt vời cho người dùng.</li><li> <strong>Thiết Kế Hiện Đại:</strong> Bộ sưu tập này sở hữu thiết kế hiện đại, hấp dẫn và bắt mắt. Từ màu sắc sang trọng đến hình dạng tinh tế, từng chi tiết đã được chăm sóc kỹ lưỡng để tạo nên một sản phẩm hoàn hảo cho người yêu thể thao.</li><li> <strong>Lợi Ich Sử Dụng:</strong> Bộ Sưu Tập Thể Thao Bồ Đào Nha - Sân Nhà WC22 Bản Fan Full Bộ không chỉ mang lại sự thoải mái và an toàn cho người dùng mà còn giúp họ thể hiện phong cách riêng biệt. Sản phẩm này là một trong những lựa chọn hàng đầu cho các hoạt động thể thao, từ tập luyện đến thi đấu.</li><li> <strong>Sự Phù Hợp:</strong> Bộ sưu tập này được thiết kế để phù hợp với mọi lứa tuổi và giới tính. Từ người lớn trẻ trung đến vận động viên chuyên nghiệp, sản phẩm này đều mang lại sự thoải mái và hiệu suất tối ưu cho người dùng.</li></ul><p>Bộ Sưu Tập Thể Thao Bồ Đào Nha - Sân Nhà WC22 Bản Fan Full Bộ là một trong những lựa chọn hàng đầu trên thị trường. Với tính năng chất lượng cao, thiết kế hiện đại, lợi ích sử dụng đa dạng và sự phù hợp với mọi đối tượng, sản phẩm này chắc chắn sẽ không khiến bạn thất vọng. Mua ngay hôm nay và trải nghiệm thế giới thể thao hoàn hảo!</p><h2>Thông Tin Cụ Thể:</h2><ul><li> <strong>Thương Hiệu:</strong> Bồ Đào Nha</li><li> <strong>Sản Phẩm Số:</strong> WC22 Bản Fan Full Bộ</li></ul>",
+  "short_description": "Bộ Sưu Tập Thể Thao Bồ Đào Nha - Sân Nhà WC22 Bản Fan Full Bộ: Tính Năng Chất Lượng Cao, Thiết Kế Hiện Đại, Lợi Ich Sử Dụng đa dạng và Sự Phù Hợp cho mọi đối tượng."
+}
+2024-12-03 21:18:07,885 - INFO - Successfully processed description for: Bồ Đào Nha sân nhà WC22 bản fan full bộ
+2024-12-03 21:18:07,885 - INFO - Successfully updated descriptions for product: Bồ Đào Nha sân nhà WC22 bản fan full bộ
+2024-12-03 21:18:07,885 - INFO - Updating descriptions for product: Áo giữ nhiệt xanh than
+2024-12-03 21:18:07,885 - INFO - Processing product: Áo giữ nhiệt xanh than
+2024-12-03 21:18:07,885 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Áo giữ nhiệt xanh than
+2024-12-03 21:18:07,890 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:18:25,481 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:18:25,482 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:18:25,483 - DEBUG - Raw Ollama Response: {
+  "description": "<h1>Áo giữ nhiệt xanh than - Bộ sưu tập thể thao cao cấp</h1><p>Áo giữ nhiệt xanh than là một trong những lựa chọn hàng đầu của bộ sưu tập thể thao cao cấp. Sản phẩm này được thiết kế để cung cấp sự thoải mái và giữ nhiệt tuyệt vời cho các hoạt động thể thao hoặc đơn giản là một ngày thường.</p><ul><li><strong>Lõi giữ nhiệt siêu hiệu quả</strong>: Áo giữ nhiệt xanh than sử dụng công nghệ giữ nhiệt tiên tiến giúp giữ ấm cơ thể, ngay cả trong điều kiện thời tiết lạnh nhất.</li><li><strong>Chất liệu mềm và mịn</strong>: Sản phẩm được làm từ chất liệu mềm và mịn, đảm bảo sự thoải mái tối đa khi mặc. Chất liệu này cũng dễ dàng vệ sinh và bảo trì.</li><li><strong>Thiết kế hiện đại và tinh tế</strong>: Áo giữ nhiệt xanh than có thiết kế hiện đại và tinh tế, phù hợp với mọi phong cách và sở thích. Sản phẩm này sẽ trở thành một phần không thể thiếu trong bộ sưu tập thể thao của bạn.</li><li><strong>Sự phù hợp đa dạng</strong>: Áo giữ nhiệt xanh than không chỉ dành cho hoạt động thể thao mà còn phù hợp để mặc hàng ngày, đặc biệt là vào mùa đông. Sản phẩm này sẽ giúp bạn cảm thấy ấm áp và thoải mái trong mọi tình huống.</li></ul><p>Áo giữ nhiệt xanh than được thiết kế để đáp ứng nhu cầu của người dùng cao cấp. Sản phẩm này không chỉ mang lại sự thoải mái mà còn đảm bảo sự chuyên nghiệp và hiện đại. Nếu bạn đang tìm kiếm một sản phẩm thể thao cao cấp, thì Áo giữ nhiệt xanh than là một lựa chọn tuyệt vời.</p><h2>Thông số kỹ thuật:</h2><ul><li>Chất liệu: 80% polyester, 20% sợi nhân tạo</li><li>Kích thước: S, M, L, XL</li><li>Màu sắc: Xanh than</li></ul>",
+  "short_description": "Áo giữ nhiệt xanh than - Bộ sưu tập thể thao cao cấp. Sản phẩm này được thiết kế để cung cấp sự thoải mái và giữ nhiệt tuyệt vời cho các hoạt động thể thao hoặc đơn giản là một ngày thường."
+}
+2024-12-03 21:18:25,483 - INFO - Successfully processed description for: Áo giữ nhiệt xanh than
+2024-12-03 21:18:25,483 - INFO - Successfully updated descriptions for product: Áo giữ nhiệt xanh than
+2024-12-03 21:18:25,483 - INFO - Updating descriptions for product: PSG home 22-23 bản fan full bộ
+2024-12-03 21:18:25,483 - INFO - Processing product: PSG home 22-23 bản fan full bộ
+2024-12-03 21:18:25,483 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: PSG home 22-23 bản fan full bộ
+2024-12-03 21:18:25,486 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:18:52,418 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:18:52,421 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:18:52,421 - DEBUG - Raw Ollama Response: {
+  "description": "<p style='color:#2f4f7f;'><strong>PSG Home 22-23 Bản Fan Full Bộ</strong></p><br/><p>Chào mừng bạn đến với thế giới bóng đá của Paris Saint-Germain! Bộ trang phục PSG Home 22-23 Bản Fan Full Bộ là sự lựa chọn hoàn hảo cho những người hâm mộ đam mê phong cách thời trang và chất lượng sản phẩm. Bộ sưu tập thể thao này mang lại một trải nghiệm toàn diện về hình ảnh và phong cách của đội bóng số 1 nước Pháp.</p><br/><h2 style='color:#2f4f7f;'><strong>Tính Nổi Bật</strong></h2><br/><ul style='list-style-type:square;'> <li>Thiết kế độc đáo với màu chủ đạo là màu đỏ và trắng tinh tế, phản ánh được tinh thần và ý chí của đội bóng.</li><li>Công nghệ sản xuất cao cấp đảm bảo chất lượng vượt trội về độ bền, thoải mái khi mặc và dễ dàng vệ sinh.</li><li>Sản phẩm này không chỉ đẹp mà còn có thể giúp bạn tăng cường tinh thần đoàn kết với các fan khác trong suốt thời gian diễn ra giải đấu.</li></ul><br/><h2 style='color:#2f4f7f;'><strong>Lợi ích Sử Dụng</strong></h2><br/><ul style='list-style-type:square;'> <li>Mang lại cho bạn cảm giác tự tin và thoải mái khi mặc, giúp bạn sẵn sàng để hỗ trợ đội bóng của mình.</li><li>Cung cấp một không gian thể thao chuyên nghiệp cho các buổi tập luyện hoặc xem trận đấu.</li><li>Sự đa dạng về kích thước và màu sắc đảm bảo rằng có sản phẩm phù hợp với mọi nhu cầu.</li></ul><br/><h2 style='color:#2f4f7f;'><strong>Chất Liệu Và Thiết Kế</strong></h2><br/><p>Tính năng của bộ trang phục PSG Home 22-23 Bản Fan Full Bộ là sự kết hợp hoàn hảo giữa công nghệ cao cấp và thiết kế hiện đại, mang lại cho bạn một cảm giác thoải mái và tự tin. Chất liệu được chọn kỹ lưỡng để đảm bảo độ bền và dễ dàng vệ sinh.</p><br/><h2 style='color:#2f4f7f;'><strong>Sự Phù Hợp Cho Các Hoạt Động Thể Thao</strong></h2><br/><ul style='list-style-type:square;'> <li>Phù hợp cho các hoạt động thể thao như chạy bộ, tập luyện thể dục, hoặc đơn giản là việc bạn muốn diện trang phục bóng đá để tự tin.</li><li>Sản phẩm này không chỉ đẹp mà còn có thể giúp bạn tăng cường tinh thần đoàn kết với các fan khác trong suốt thời gian diễn ra giải đấu.</li></ul><br/><p>Đừng bỏ lỡ cơ hội sở hữu bộ sưu tập thể thao đầy đủ và độc đáo của Paris Saint-Germain. Mua ngay Bộ trang phục PSG Home 22-23 Bản Fan Full Bộ và trở thành một phần không thể thiếu trong cộng đồng người hâm mộ bóng đá!</p>",
+ "short_description": "Bộ trang phục PSG Home 22-23 Bản Fan Full Bộ là sự lựa chọn hoàn hảo cho những người hâm mộ Paris Saint-Germain. Thiết kế độc đáo, chất liệu cao cấp và đa dạng về kích thước để đáp ứng mọi nhu cầu."
+}
+2024-12-03 21:18:52,422 - INFO - Successfully processed description for: PSG home 22-23 bản fan full bộ
+2024-12-03 21:18:52,422 - INFO - Successfully updated descriptions for product: PSG home 22-23 bản fan full bộ
+2024-12-03 21:18:52,422 - INFO - Updating descriptions for product: NIKE TIEMPO LEGEND 9 PRO TF LUCENT
+2024-12-03 21:18:52,422 - INFO - Processing product: NIKE TIEMPO LEGEND 9 PRO TF LUCENT
+2024-12-03 21:18:52,422 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: NIKE TIEMPO LEGEND 9 PRO TF LUCENT
+2024-12-03 21:18:52,426 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:19:20,037 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:19:20,040 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:19:20,041 - DEBUG - Raw Ollama Response: {"description": "<p><strong>Nike Tiempo Legend 9 Pro TF Lucent</strong> - Món quà tuyệt vời cho các vận động viên bóng đá yêu thích! Sản phẩm này được thiết kế để đáp ứng nhu cầu cao nhất của người dùng, với sự kết hợp hoàn hảo giữa công nghệ và chất lượng.</p>\n\n<p><strong>Tính Nổi Bật:</strong></p>\n\n<ul style=\"list-style-type:disc;\"><li>Sự Kết Hợp Của Công Nghệ Và Chất Lượng</li>\n<li>Đầu Tiên Mở (TF) Cho Tốc Độ &amp; Sức Khỏe</li>\n<li>Giày Bóng Đá Chính Hãng Từ Nike</li>\n<li>Tiết Kiệm Năng Lực, Tăng Cường Tốc Độ &amp; Giúp Bạn Chơi Khó</li>\n<li>Làm Bền Dưới Nhiều Điều Kiện Sử Dụng</li></ul>\n\n<p><strong>Giới Thiệu Sản Phẩm:</strong></p>\n\n<p>Nike Tiempo Legend 9 Pro TF Lucent là một trong những đôi giày bóng đá hàng đầu của Nike. Với thiết kế tinh tế và công nghệ hiện đại, sản phẩm này hứa hẹn mang lại trải nghiệm chơi bóng tuyệt vời cho người dùng.</p>\n\n<p><strong>Ưu Điểm:</strong></p>\n\n<ul style=\"list-style-type:disc;\"><li>Tiết Kiệm Năng Lực &amp; Tăng Cường Sức Khỏe</li>\n<li>Đầu Tiên Mở (TF) Cho Linh Hoạt &amp; Tốc Độ</li>\n<li>Làm Bền Dưới Nhiều Điều Kiện Sử Dụng</li>\n<li>Thiết Kế Tinh Tế &amp; Chất Lượng Cao</li></ul>\n\n<p><strong>Lợi Ích Khi Sử Dụng:</strong></p>\n\n<ul style=\"list-style-type:disc;\"><li>Tăng Cường Sức Khỏe Và Tiết Kiệm Năng Lực</li>\n<li>Giúp Bạn Chơi Bóng Đá Với Tốc Độ &amp; Linh Hoạt Cao</li>\n<li>Làm Bền Dưới Các Điều Kiện Sử Dụng Khác Nhau</li></ul>\n\n<p><strong>Tóm Tắt:</strong></p>\n\n<p>Nike Tiempo Legend 9 Pro TF Lucent là một lựa chọn tuyệt vời cho các vận động viên bóng đá. Với thiết kế tinh tế, công nghệ hiện đại và chất lượng cao, sản phẩm này hứa hẹn mang lại trải nghiệm chơi bóng tuyệt vời và giúp người dùng đạt được mục tiêu của mình.</p>\n\n<p><strong>Thông Tin Sản Phẩm:</strong></p>\n\n<ul style=\"list-style-type:disc;\"><li>Thương Hiệu: Nike</li>\n<li>Sản Phẩm: Giày Bóng Đá</li>\n<li>Model: Tiempo Legend 9 Pro TF Lucent</li>\n<li>Chất Lượng: Cao Cấp</li></ul>", "short_description": "<p>Nike Tiempo Legend 9 Pro TF Lucent - Đôi giày bóng đá chính hãng từ Nike. Thiết kế tinh tế, công nghệ hiện đại và chất lượng cao.</p>"}
+2024-12-03 21:19:20,041 - INFO - Successfully processed description for: NIKE TIEMPO LEGEND 9 PRO TF LUCENT
+2024-12-03 21:19:20,041 - INFO - Successfully updated descriptions for product: NIKE TIEMPO LEGEND 9 PRO TF LUCENT
+2024-12-03 21:19:20,041 - INFO - Updating descriptions for product: Ajax home 22-23 bản Fan full bộ
+2024-12-03 21:19:20,041 - INFO - Processing product: Ajax home 22-23 bản Fan full bộ
+2024-12-03 21:19:20,041 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Ajax home 22-23 bản Fan full bộ
+2024-12-03 21:19:20,045 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:19:39,477 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:19:39,479 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:19:39,479 - DEBUG - Raw Ollama Response: {  
+  "description": "<h1>Ajax Home 22-23 Bản Fan Full Bộ</h1><p>Tập hợp toàn diện các yếu tố mang đến phong cách cá nhân hóa và sự thoải mái tối ưu cho người hâm mộ Ajax. Được thiết kế dành riêng cho những ai đam mê câu lạc bộ bóng đá danh tiếng này, sản phẩm thể thao này đảm bảo sẽ khiến bạn nổi bật giữa đám đông.</p><ul><li>Chất liệu và thiết kế: Tích hợp các thành phần hiện đại với phong cách độc đáo, mang đến sự thoải mái vượt trội cho người mặc. Chất liệu được chọn cẩn thận để đảm bảo độ bền cao, ngay cả sau những lần sử dụng nhiều.</li><li>Tính năng nổi bật: Được thiết kế để trở thành trung tâm chú ý của mọi nơi bạn đi. Với thiết kế tinh tế và phong cách riêng biệt, sản phẩm thể thao này sẽ khiến bạn trở nên đặc biệt ở bất kỳ đâu.</li></ul><p>Sự thoải mái tối ưu là điều đầu tiên bạn nhận thấy khi mặc sản phẩm thể thao Ajax Home 22-23 Bản Fan Full Bộ. Từ thiết kế đến chất liệu, mọi thứ đều được tính toán để cung cấp cho bạn những trải nghiệm tuyệt vời nhất trong suốt quá trình sử dụng.</p><ul><li>Chất lượng cao: Sản phẩm này được chế tạo bằng công nghệ hiện đại và chất liệu chất lượng cao, đảm bảo độ bền và thoải mái tối đa cho người mặc.</li><li>Phù hợp với nhiều hoạt động thể thao khác nhau: Với thiết kế linh hoạt và thoải mái, sản phẩm thể thao Ajax Home 22-23 Bản Fan Full Bộ phù hợp để tham gia vào nhiều loại hình thể thao khác nhau, từ các bài tập thông thường đến những môn thể thao yêu thích của bạn.</li></ul><p>Nhờ được thiết kế riêng biệt dành cho người hâm mộ Ajax, sản phẩm thể thao này sẽ giúp bạn thể hiện sự trung thành và tình cảm với đội bóng yêu thích. Với phong cách độc đáo và chất lượng cao, nó chắc chắn sẽ trở thành một phần không thể thiếu trong bộ sưu tập thể thao của bạn.</p>",
+  "short_description": "Ajax Home 22-23 Bản Fan Full Bộ: Chất liệu hiện đại, thiết kế tinh tế, thoải mái tối ưu, chất lượng cao và phù hợp với nhiều hoạt động thể thao khác nhau. Sản phẩm thể thao hoàn hảo dành cho người hâm mộ Ajax."  
+}
+2024-12-03 21:19:39,480 - INFO - Successfully processed description for: Ajax home 22-23 bản Fan full bộ
+2024-12-03 21:19:39,481 - INFO - Successfully updated descriptions for product: Ajax home 22-23 bản Fan full bộ
+2024-12-03 21:19:39,481 - INFO - Updating descriptions for product: Áo AC Milan 06-07 home
+2024-12-03 21:19:39,481 - INFO - Processing product: Áo AC Milan 06-07 home
+2024-12-03 21:19:39,481 - DEBUG - Sending prompt to Ollama: Tạo một mô tả sản phẩm và mô tả ngắn gọn cho một sản phẩm thuộc bộ sưu tập thể thao trên trang thương mại điện tử. Mô tả cần phải chi tiết, hấp dẫn và tập trung vào các tính năng đặc biệt của sản phẩm thể thao, lợi ích sử dụng, cũng như các ưu điểm về chất lượng và hiệu suất. 
+    
+Trả về phản hồi theo định dạng JSON sau và không có từ nào khác ngoài định dạng json đó. Ngoài ra ở mô tả sản phẩm sẽ được sử dụng với dạng html và sẽ được sử dụng vào CKEditor sau này. Tối thiểu phải có 300 từ:
+
+{
+  "description": "Mô tả chi tiết về sản phẩm thể thao, bao gồm các tính năng nổi bật, lợi ích khi sử dụng, chất liệu, thiết kế và sự phù hợp cho các hoạt động thể thao cụ thể.",
+  "short_description": "Mô tả ngắn gọn về sản phẩm thể thao, tập trung vào những tính năng và lợi ích chính."
+}
+
+Tên sản phẩm thể thao: Áo AC Milan 06-07 home
+2024-12-03 21:19:39,484 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-12-03 21:20:04,454 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-12-03 21:20:04,457 - DEBUG - Attempt 1 - Status code: 200
+2024-12-03 21:20:04,458 - DEBUG - Raw Ollama Response: {
+  "description": "<p><strong>Áo AC Milan 06-07 Home - Một phần của bộ sưu tập thể thao đáng kinh ngạc!</strong></p><p>Tìm kiếm một chiếc áo bóng đá chất lượng cao để thể hiện sự khâm phục đối với đội bóng yêu thích? Áo AC Milan 06-07 Home là lựa chọn hoàn hảo cho bạn. Với thiết kế đầy ấn tượng và màu sắc rực rỡ, sản phẩm này sẽ giúp bạn trở thành trung tâm chú ý trên sân đấu.</p><h2>Thông tin chi tiết:</h2><ul><li><strong>Chất liệu:</strong> Áo được làm từ chất liệu cotton mềm mại và thoải mái cho phép bạn di chuyển tự do mà không có cảm giác đau nhức hay khó chịu.</li><li><strong>Thiết kế:</strong> Thiết kế của áo là sự kết hợp hoàn hảo giữa tính năng và phong cách. Với màu sắc rực rỡ và hình logo AC Milan nổi bật, sản phẩm này sẽ giúp bạn thể hiện sự khâm phục đối với đội bóng yêu thích.</li><li><strong>Tính năng đặc biệt:</strong> Áo được thiết kế để đáp ứng nhu cầu của các cầu thủ chuyên nghiệp cũng như người hâm mộ. Với công nghệ vải tiên tiến và thiết kế tinh tế, sản phẩm này sẽ giúp bạn cảm thấy thoải mái và tự tin khi chơi bóng hoặc theo dõi trận đấu.</li></ul><p>Áo AC Milan 06-07 Home là một phần của bộ sưu tập thể thao đáng kinh ngạc. Với thiết kế đầy ấn tượng và chất liệu tốt, sản phẩm này sẽ giúp bạn trở thành trung tâm chú ý trên sân đấu. Hãy mua ngay hôm nay và trở thành người hâm mộ nhiệt tình nhất của đội bóng yêu thích!</p><h2>Tính năng nổi bật:</h2><ul><li>Chất liệu cotton mềm mại và thoải mái</li><li>Thiết kế đầy ấn tượng với màu sắc rực rỡ</li><li>Hình logo AC Milan nổi bật</li></ul><h2>Lợi ích khi sử dụng:</h2><ul><li>Cảm thấy thoải mái và tự tin khi chơi bóng hoặc theo dõi trận đấu</li><li>Thể hiện sự khâm phục đối với đội bóng yêu thích</li></ul><p><strong>Tính năng đặc biệt:</strong> Áo được thiết kế để đáp ứng nhu cầu của các cầu thủ chuyên nghiệp cũng như người hâm mộ. Với công nghệ vải tiên tiến và thiết kế tinh tế, sản phẩm này sẽ giúp bạn cảm thấy thoải mái và tự tin khi chơi bóng hoặc theo dõi trận đấu.</p><h2>Sự phù hợp cho các hoạt động thể thao:</h2><ul><li>Chơi bóng đá</li><li>Theo dõi trận đấu</li></ul>",
+  "short_description": "Áo AC Milan 06-07 Home - Một phần của bộ sưu tập thể thao đáng kinh ngạc! Thiết kế đầy ấn tượng, chất liệu cotton mềm mại và thoải mái. Phù hợp cho các hoạt động thể thao như chơi bóng đá hoặc theo dõi trận đấu."
+}
+2024-12-03 21:20:04,458 - INFO - Successfully processed description for: Áo AC Milan 06-07 home
+2024-12-03 21:20:04,459 - INFO - Successfully updated descriptions for product: Áo AC Milan 06-07 home
+2024-12-03 21:20:04,502 - INFO - Successfully updated 22 product descriptions in products.json
+2024-12-03 21:20:04,502 - INFO - All targeted product descriptions were successfully updated.
+2024-12-03 21:20:04,502 - INFO - Description update process completed.
